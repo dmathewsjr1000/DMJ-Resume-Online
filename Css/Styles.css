@@ -17,7 +17,7 @@
   width: 100%;
   height: 310px;
   display: flex;
-  /* font-size: 15px; */
+  font-size: 15px;
   justify-content: space-between;
    /* flex-grow: 1;  */
 }
@@ -29,8 +29,20 @@
 }
 
 .Title-Name1 {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     width: 100%;
+    text-align: center;
      
+  }
+
+  #jr {
+
+    text-align: center;
+  }
+
+  body {
+    border: 1px solid;
+    justify-content: space-between;
+
   }
